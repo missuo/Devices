@@ -29,7 +29,7 @@ Devices is a native iOS application designed to help developers and system admin
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/devices.git
+   git clone https://github.com/missuo/Devices.git
    ```
 
 2. Open the project in Xcode
@@ -41,6 +41,8 @@ Devices is a native iOS application designed to help developers and system admin
 3. Build and run the application on your device or simulator
 
 ### Backend Configuration
+
+[https://github.com/missuo/asc-provision-go](https://github.com/missuo/asc-provision-go)
 
 To use Devices, you'll need a compatible backend server that implements:
 
@@ -66,16 +68,6 @@ Key components:
 - `APIService`: Manages backend connections and API calls
 - `BackendSelectionView`: Primary interface for selecting and managing backends
 - `SettingsView`: Configuration interface for managing app settings
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## License
 
